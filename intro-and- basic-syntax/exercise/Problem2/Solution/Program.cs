@@ -10,9 +10,11 @@ namespace RectengleArea
     {
         static void Main(string[] args)
         {
+            //TODO
             float a = float.Parse(Console.ReadLine());
             float b = float.Parse(Console.ReadLine());
             float c = a * b;
+            //TODO
             Console.WriteLine("{0:f2}", c);
         }
     }
