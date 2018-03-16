@@ -11,8 +11,8 @@ namespace Convertor
         static void Main(string[] args)
         {
             //TODO
-            double a = double.Parse(Console.ReadLine());
-            double result = a * 1.60934;
+            double input = double.Parse(Console.ReadLine());
+            double result = input * 1.60934;
             Console.WriteLine("{0:f2}", result);
         }
     }
