@@ -10,6 +10,7 @@ namespace DebitCard
     {
         static void Main(string[] args)
         {
+            //TODO
             List<string> gogo = new List<string>();
             for (int i = 1; i <= 4; i++)
             {
