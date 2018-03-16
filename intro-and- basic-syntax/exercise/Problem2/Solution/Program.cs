@@ -13,9 +13,9 @@ namespace RectengleArea
             //TODO
             float a = float.Parse(Console.ReadLine());
             float b = float.Parse(Console.ReadLine());
-            float c = a * b;
+            float d = a * b;
             //TODO
-            Console.WriteLine("{0:f2}", c);
+            Console.WriteLine("{0:f2}", d);
         }
     }
 }
