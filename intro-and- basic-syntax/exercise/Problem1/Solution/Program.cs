@@ -14,8 +14,8 @@ namespace DebitCard
             List<string> gogo = new List<string>();
             for (int i = 1; i <= 4; i++)
             {
-                int a = int.Parse(Console.ReadLine());
-                gogo.Add(a.ToString());
+                int s = int.Parse(Console.ReadLine());
+                gogo.Add(s.ToString());
             }
             for (int i = 0; i < 4; i++)
             {

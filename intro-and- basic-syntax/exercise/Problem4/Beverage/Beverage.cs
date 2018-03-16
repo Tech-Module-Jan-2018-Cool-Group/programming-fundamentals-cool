@@ -12,11 +12,11 @@ class Beverage
         int b = int.Parse(Console.ReadLine());
         int c = int.Parse(Console.ReadLine());
 
-        double energy = a * (b * 0.01);
+        double calories = a * (b * 0.01);
         double sugar = a * (c * 0.01);
 
         Console.WriteLine(a + "ml" + " " + name + ":");
-        Console.WriteLine(energy + "kcal, " + sugar + "g sugars");
+        Console.WriteLine(calories + "kcal, " + sugar + "g sugars");
     }
 }
 }

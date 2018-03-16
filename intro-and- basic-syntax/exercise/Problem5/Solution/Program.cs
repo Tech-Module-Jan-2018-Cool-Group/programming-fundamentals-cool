@@ -10,14 +10,13 @@ namespace CharStats
     {
         static void Main(string[] args)
         {
-            string name = Console.ReadLine();
+            string person = Console.ReadLine();
             int currh = int.Parse(Console.ReadLine());
             int maxh = int.Parse(Console.ReadLine());
             int curre = int.Parse(Console.ReadLine());
             int maxe = int.Parse(Console.ReadLine());
-			
-			//TODO
-            Console.WriteLine("Name: " + name);
+            //TODO
+            Console.WriteLine("Name: " + person);
             Console.WriteLine("Health: " + "|" + new string('|', currh) + new string('.', maxh - currh) + "|");
             Console.WriteLine("Energy: " + "|" + new string('|', curre) + new string('.', maxe - curre) + "|");
 
